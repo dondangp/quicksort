@@ -1,3 +1,6 @@
+# Quicksort Benchmark 
+
+
 # Quicksort Performance Analysis
 
 ## Overview
@@ -38,5 +41,8 @@ I derived the average-case time complexity by considering the recursive nature o
 
 ### 4. Conclusion
 From this derivation, the average-case time complexity of the non-random pivot version of quicksort is **O(n log n)**. However, I noted that the worst case, where the pivot results in extremely unbalanced partitions (e.g., an already sorted array), can degrade to **O(n²)**.
+
+### 4. Conclusion
+From this derivation, the average-case time complexity of the non-random pivot version of quicksort is **O(n log n)**. However, the worst case, where the pivot results in extremely unbalanced partitions (e.g., an already sorted array), can degrade to **O(n^2)**.
 
 
