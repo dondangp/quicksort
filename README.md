@@ -22,7 +22,9 @@ I derived the average-case time complexity by considering the recursive nature o
 1. **Recursive Relation:** 
    The average runtime `T(n)` can be expressed as:
    \[
-   T(n) = n + \frac{1}{n} \sum_{k=0}^{n-1} (T(k) + T(n - k - 1))
+ T(n) = n + (1/n) * [T(0) + T(1) + T(2) + ... + T(n-1)]
+
+
    \]
    - `n` represents the time for the partitioning operation.
    - The summation represents the average runtime over all possible splits of the array.
