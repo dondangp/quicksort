@@ -1,3 +1,19 @@
+# Benchmark 
+
+![Figure_1](https://github.com/user-attachments/assets/55833ecc-ed0d-4a8a-a4ad-14932a9e0d82)
+
+## Benchmark Environment
+Operating System: macOS 14.4.1 (23E224)
+Processor/Chip: Apple M2 (8-core CPU)
+Clock Speed: Up to 3.49 GHz
+RAM: 8 GB
+Storage: 245.11 GB Macintosh HD
+Python Version: 3.12.0
+Virtual Environment: Yes (venv)
+Major Dependencies: timeit, matplotlib
+Device Power Status: Plugged in
+Background Processes: Minimal activity, no significant CPU load during benchmarking.
+
 # Quicksort Performance Analysis
 
 ## Overview
