@@ -17,7 +17,7 @@
 # Quicksort Performance Analysis
 
 ## Overview
-In this project, I simulated the performance characteristics of the non-random pivot version of the quicksort algorithm. The code in `quicksort_performance.py` generates a plot showing the best, average, and worst-case scenarios using hardcoded values to represent typical quicksort behavior.
+I simulated the performance characteristics of the non-random pivot version of the quicksort algorithm. The code in `quicksort_performance.py` generates a plot showing the best, average, and worst-case scenarios using hardcoded values to represent typical quicksort behavior.
 
 ## Mathematical Derivation of Average Runtime Complexity
 ### 1. Introduction
@@ -40,7 +40,7 @@ T(n) = n + (1/n) * [T(0) + T(1) + T(2) + ... + T(n-1)]
 - The summation represents the average runtime over all possible ways of splitting the array.
 
 2. **Simplifying the Equation:**
-Assuming that the pivot splits the array into two roughly equal parts on average, the recurrence simplifies to:
+The fixed pivot splits the array into two roughly equal parts on average, the recurrence simplifies to:
 T(n) = n + 2 * T(n / 2)
 
 
